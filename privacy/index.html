@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VhNSub Privacy Policy</title>
+  <style>
+    :root { --fg: #1c1d1f; --muted: #6a6f73; --bg: #ffffff; --accent: #a435f0; --line: #e4e4e7; }
+    @media (prefers-color-scheme: dark) {
+      :root { --fg: #ececf1; --muted: #a1a1aa; --bg: #18181b; --line: #34343a; }
+    }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+    h1 { font-size: 28px; margin: 0 0 4px; }
+    h2 { font-size: 20px; margin: 32px 0 8px; }
+    .muted { color: var(--muted); font-size: 14px; }
+    nav { display: flex; gap: 12px; margin: 16px 0 8px; }
+    nav a { color: var(--accent); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+    code { font-size: 14px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>VhNSub Privacy Policy</h1>
+  <p class="muted">VhNSub – Dual Subtitles for Udemy · Last updated: 2026-11-21</p>
+  <nav><a href="#en">English</a><a href="#vi">Tiếng Việt</a></nav>
+
+  <section id="en">
+    <h2>Summary</h2>
+    <p>VhNSub has no accounts, no analytics, no ads and no servers of its own. It does not sell or share your data.</p>
+
+    <h2>What the extension processes</h2>
+    <ul>
+      <li><strong>Subtitle text.</strong> When you watch a Udemy lecture with captions turned on, VhNSub reads the caption file that Udemy loads, and sends the caption text to Google Translate (<code>translate.googleapis.com</code>) to translate it. Nothing else from the page is sent. Google's processing is covered by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+      <li><strong>Settings.</strong> Your preferences (on/off, target language, font size, subtitle position) are stored with <code>chrome.storage.sync</code>, so Chrome may sync them across your signed-in browsers.</li>
+      <li><strong>Translation cache.</strong> Translated subtitles are stored locally on your computer (<code>chrome.storage.local</code>) so a lecture is not translated twice. You can clear it from the popup at any time.</li>
+    </ul>
+
+    <h2>What the extension does not do</h2>
+    <ul>
+      <li>It does not collect your name, email, Udemy account, browsing history or course progress.</li>
+      <li>It does not use cookies, trackers or analytics.</li>
+      <li>It does not send data to the developer.</li>
+    </ul>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li><code>storage</code>: save your settings and the translation cache.</li>
+      <li>Access to <code>udemy.com</code>: read captions and show dual subtitles on lecture pages.</li>
+      <li>Access to <code>translate.googleapis.com</code>: translate subtitle text.</li>
+    </ul>
+
+    <h2>Changes and contact</h2>
+    <p>If this policy changes, the date above will be updated. Questions or requests: use the “Send feedback” link in the extension popup.</p>
+  </section>
+
+  <hr />
+
+  <section id="vi" lang="vi">
+    <h1>Chính sách quyền riêng tư VhNSub</h1>
+    <p class="muted">VhNSub – Phụ đề song ngữ cho Udemy · Cập nhật: 21/11/2026</p>
+
+    <h2>Tóm tắt</h2>
+    <p>VhNSub không có tài khoản, không có công cụ thống kê, không quảng cáo và không có máy chủ riêng. Extension không bán hay chia sẻ dữ liệu của bạn.</p>
+
+    <h2>Extension xử lý những gì</h2>
+    <ul>
+      <li><strong>Nội dung phụ đề.</strong> Khi bạn xem bài giảng Udemy có bật phụ đề, VhNSub đọc file phụ đề mà Udemy tải về và gửi phần chữ phụ đề tới Google Translate (<code>translate.googleapis.com</code>) để dịch. Ngoài ra không gửi thông tin nào khác của trang. Việc Google xử lý dữ liệu tuân theo <a href="https://policies.google.com/privacy?hl=vi">Chính sách quyền riêng tư của Google</a>.</li>
+      <li><strong>Cài đặt.</strong> Các tuỳ chọn của bạn (bật/tắt, ngôn ngữ, cỡ chữ, vị trí phụ đề) được lưu bằng <code>chrome.storage.sync</code>, nên Chrome có thể đồng bộ chúng giữa các trình duyệt bạn đăng nhập.</li>
+      <li><strong>Bộ nhớ bản dịch.</strong> Bản dịch được lưu ngay trên máy bạn (<code>chrome.storage.local</code>) để không phải dịch lại một bài. Bạn có thể xoá bất cứ lúc nào trong popup.</li>
+    </ul>
+
+    <h2>Extension không làm gì</h2>
+    <ul>
+      <li>Không thu thập tên, email, tài khoản Udemy, lịch sử duyệt web hay tiến độ học.</li>
+      <li>Không dùng cookie, trình theo dõi hay công cụ thống kê.</li>
+      <li>Không gửi dữ liệu nào cho nhà phát triển.</li>
+    </ul>
+
+    <h2>Quyền truy cập</h2>
+    <ul>
+      <li><code>storage</code>: lưu cài đặt và bộ nhớ bản dịch.</li>
+      <li>Truy cập <code>udemy.com</code>: đọc phụ đề và hiển thị phụ đề song ngữ trên trang bài học.</li>
+      <li>Truy cập <code>translate.googleapis.com</code>: dịch phụ đề.</li>
+    </ul>
+
+    <h2>Thay đổi và liên hệ</h2>
+    <p>Nếu chính sách thay đổi, ngày cập nhật ở trên sẽ được sửa. Mọi câu hỏi hoặc yêu cầu: dùng liên kết “Góp ý” trong popup của extension.</p>
+  </section>
+</main>
+</body>
+</html>
